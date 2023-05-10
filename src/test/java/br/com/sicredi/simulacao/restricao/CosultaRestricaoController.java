@@ -5,7 +5,7 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 
-public class CosultaRestricao {
+public class CosultaRestricaoController {
     public static String ConsultaCpfRestricao(String CPF,Integer statusCode) {
         String endpoint = "http://localhost:8080/api/v1/restricoes/" + CPF;
         RequestSpecification url = new RequestSpecBuilder().setBaseUri(endpoint).build();
