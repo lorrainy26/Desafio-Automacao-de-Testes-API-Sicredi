@@ -9,7 +9,7 @@ public class TesteAlteracaoCpfNaoEncontrado {
     br.com.sicredi.simulacao.simulacoes.BaseMethods BaseMethods = new BaseMethods();
     AlteracaoController AlteracaoController = new AlteracaoController();
     @Test
-    public void verifica_alteracao_cpf() throws IOException, org.json.simple.parser.ParseException {
+    public void verifica_alteracao_cpf_nao_encontrado() throws IOException, org.json.simple.parser.ParseException {
         String response = AlteracaoController.AlteracaoCadastro("999.999.999-11", 404, this.BaseMethods.lerJson("/alteracao/AlteracaoDoCpf.json").toString());
         System.out.println(response);
 
