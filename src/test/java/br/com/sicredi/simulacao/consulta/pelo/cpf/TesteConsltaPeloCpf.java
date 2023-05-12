@@ -9,7 +9,7 @@ import java.text.ParseException;
 public class TesteConsltaPeloCpf {
     @Test
     public void consulta_simulacoes() throws IOException, ParseException {
-        String response = ConsultaSimulacaoPeloCpfController.ConsultaSimuacoesPeloCpf("123.999.999-99",200);
+        String response = ConsultaSimulacaoPeloCpfController.ConsultaSimuacoesPeloCpf("999.999.999-99",200);
         System.out.println(response);
     }
 }

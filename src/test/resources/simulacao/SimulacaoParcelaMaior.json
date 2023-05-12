@@ -1,0 +1,8 @@
+{
+  "cpf": "999.199.988-99",
+  "nome": "Teste Lorrainy",
+  "email": "Teste@teste.com",
+  "valor": 1200,
+  "parcelas": 60,
+  "seguro": true
+}

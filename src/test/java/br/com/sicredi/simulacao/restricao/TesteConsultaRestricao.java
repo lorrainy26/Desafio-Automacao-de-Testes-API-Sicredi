@@ -9,7 +9,7 @@ public class TesteConsultaRestricao {
    CosultaRestricaoController ConsultaRestricao = new CosultaRestricaoController();
 
     @Test
-    public void verifica_restricao_97093236014() throws IOException, ParseException {
+    public void verifica_restricao_97093236014() throws IOException {
         String response = ConsultaRestricao.ConsultaCpfRestricao("97093236014", 200);
         System.out.println(response + System.lineSeparator() + "CPF com restricao");
     }
